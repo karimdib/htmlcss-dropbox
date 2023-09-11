@@ -352,5 +352,30 @@ header li{
 }
 
 
+.question-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.question-one{
+    border-top: 1px solid black;
+    padding-top:20px;
+}
+
+.question{
+    
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+ 
+#entity{
+    padding-left: 200px;
+}
+
+
+.seven-section{
+    margin-bottom: 80px
+}
 
 /*fine-main*/
