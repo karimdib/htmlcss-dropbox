@@ -166,7 +166,7 @@ header li{
 }
 
 .task{
-    
+    min-height: 200px;
     border: 1px solid black;
 }
 
@@ -254,7 +254,80 @@ header li{
     margin-bottom: 50px;
 }
 
+
+.four-section h2{
+    font-size: 40px;
+}
+
+.four-section{
+    margin-bottom: 50px;
+}
 /*fine-task*/
+
+/*quarta-section*/
+
+.col-6{
+    position: relative;
+    padding: 10px;
+}
+
+.green{
+    background-color: #a2d39b;
+}
+
+.dark-red{
+    background-color: #61082b;
+}
+
+.blue{
+    background-color: #0793ce;
+}
+
+.red{
+    background-color: #ff1c1d;
+}
+.red-2-0{
+    background-color: #d5001e;
+}
+
+.light-blue{
+    background-color: #b4d0e7;
+}
+
+.dark-blue{
+    background-color: #0e2481;
+}
+
+.yellow{
+    background-color: #ffd830;
+}
+
+.col-6 > img{    
+    opacity: 2;
+    filter: invert(1);
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.center{
+    padding: 20px;
+}
+
+
+.center p{
+    padding-top: 20px;
+}
+
+#design{
+    width: 50%;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+.five-section{
+    margin-bottom: 40px;
+}
 
 
 /*fine-main*/
