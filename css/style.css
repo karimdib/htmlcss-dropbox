@@ -379,3 +379,32 @@ header li{
 }
 
 /*fine-main*/
+
+/*inizio-footer*/
+
+aside{
+    padding: 30px;
+}
+
+.list{
+    flex-basis: calc((100%  -176px) / 5 );
+    margin-right: 44px;
+}
+
+.final-list{
+    margin-right: 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer li{
+    padding: 5px 10px;
+}
+
+.first{
+    padding-bottom: 20px;
+}
+
