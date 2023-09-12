@@ -102,6 +102,8 @@ header li{
 }
 .col-6{
     flex-basis: calc((100% / 12) * 6);
+    position: relative;
+    padding: 10px;
 }
 .col-8{
     flex-basis: calc((100% / 12) * 8);
@@ -127,11 +129,6 @@ header li{
    
 }
 
-.first-section{
-    margin-bottom: 50px;
-}
-
-
 .hero-col >p{
     line-height: 20px;
     margin-bottom: 30px;
@@ -148,6 +145,10 @@ header li{
 /*fine-hero*/
 
 /*inizio-task*/
+.first-section{
+    margin-bottom: 50px;
+}
+
  input{
     margin-right: 5px;
     
@@ -156,23 +157,15 @@ header li{
     margin-right: 20px;
     padding-bottom: 20px;
 }
-
-.thirth{
-    margin-right: 0 ;
-
-}
-
 .thirth-h4{
     padding-bottom: 36px;
 }
-
 
 .check{
     color: rgb(7, 64, 237);
     float: left;
     padding-right:5px ;
 }
-
 
 
 .button-task{
@@ -189,8 +182,7 @@ header li{
 }
 
 .task{
-    min-height: 200px;
-    
+    min-height: 200px;    
 }
 
 /*inizio-main-task*/
@@ -215,16 +207,6 @@ header li{
     text-align: center;
     margin: 10px 0 ;
 }
-
-.second-list{
-    margin-top: 30px;
-    border-top: 1px solid black;
-}
-
-.col-8 li{
-    padding: 10px 0px;
-}
-
 #link-second{
     text-decoration: none;
     color: white;
@@ -237,6 +219,18 @@ header li{
 .team-12{
     padding: 30px;
 }
+
+.border{
+    border: 1px solid gray;
+    height: 100%;
+}
+
+.padding-col{
+    padding: 10px;
+}
+
+/*fine-main-task*/
+/*inizio-second-section*/
 
 .partner-p{
     padding: 10px;
@@ -259,7 +253,8 @@ header li{
 .second-section{
     margin-bottom: 50px;
 }
-
+/*fine-second-section*/
+/*inizio-thirth-section*/
 
 .thirth-section h2{
     font-size: 33px
@@ -277,7 +272,8 @@ header li{
 .thirth-section{
     margin-bottom: 50px;
 }
-
+/*fine-thirth-section*/
+/*inizio-four-section*/
 
 .four-section h2{
     font-size: 40px;
@@ -286,14 +282,13 @@ header li{
 .four-section{
     margin-bottom: 50px;
 }
-/*fine-task*/
 
-/*quarta-section*/
-
-.col-6{
-    position: relative;
-    padding: 10px;
+#title-col-8{
+    font-size: 30px;
+    padding-bottom: 20px;
 }
+/*fine-four-section*/
+/*inizio-five-section*/
 
 .green{
     background-color: #a2d39b;
@@ -311,6 +306,7 @@ header li{
 .red{
     background-color: #ff1c1d;
 }
+
 .red-2-0{
     background-color: #d5001e;
 }
@@ -350,12 +346,12 @@ header li{
     padding-bottom: 40px;
     border-bottom: 1px solid black;
 }
+/*fine-five-section*/
+/*inizio-six-section*/
 .six-section{
     background-color: #b4d0e7;
     margin-bottom: 80px;
 }
-
-
 
 .business-six-section {
     color: #610937;
@@ -375,6 +371,9 @@ header li{
     left: 40px;
     bottom: 18px;
 }
+/*fine-six-section*/
+/*inizio-seven-section*/
+
 .up{
     border-top: 1px solid black;
 }
@@ -399,11 +398,13 @@ header li{
     padding: 20px;
 }
  
-
-
-
 .seven-section{
     margin-bottom: 80px
+}
+
+
+.angle{
+    padding-right:20px ;
 }
 
 /*fine-main*/
@@ -436,24 +437,16 @@ footer li{
     padding-bottom: 20px;
 }
 
-
-.border{
-    border: 1px solid gray;
-    height: 100%;
-}
-
-.padding-col{
-    padding: 10px;
+.select-language{
+    padding-top:25px;
+    padding-left:10px;
+    
 }
 
 
-
-#title-col-8{
-    font-size: 30px;
-    padding-bottom: 20px;
+select{
+    
+    border-style: none;
+    background-color: black;
+    color: white;
 }
-
-.angle{
-    padding-right:20px ;
-}
-
