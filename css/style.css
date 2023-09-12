@@ -237,6 +237,14 @@ header li{
     padding: 10px;
 }
 
+.col-8 li{
+    padding-top: 10px ;
+}
+
+.second-list h4{
+    margin-top: 20px
+}
+
 /*fine-main-task*/
 /*inizio-second-section*/
 
@@ -424,8 +432,8 @@ aside{
 }
 
 .list{
-    flex-basis: calc((100%  -176px) / 5 );
-    margin-right: 44px;
+    flex-basis: calc(100%  / 5 );
+    padding: 10px;
 }
 
 .final-list{
@@ -450,8 +458,6 @@ footer li{
     padding-left:10px;
     
 }
-
-
 select{
     
     border-style: none;
