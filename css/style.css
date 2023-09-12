@@ -142,6 +142,11 @@ header li{
     margin-top: 80px;
     font-size: 40px;
 }
+
+.image-down{
+    position: relative;
+    bottom: -50px
+}
 /*fine-hero*/
 
 /*inizio-task*/
