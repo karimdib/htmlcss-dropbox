@@ -203,9 +203,9 @@ header li{
     text-decoration: none;
     background-color: #0161ff;
     color: white;
-    padding: 5px 10px;
+    padding: 5px 30px;
     text-align: center;
-    margin: 10px 0 ;
+    
 }
 #link-second{
     text-decoration: none;
@@ -214,6 +214,14 @@ header li{
     padding: 5px 18px;
     font-size: 15px;
 
+}
+
+#link-thirth{
+    text-decoration: none;
+    background-color: #0161ff;
+    color: white;
+    padding: 5px 79px;
+    text-align: center;
 }
 
 .team-12{
