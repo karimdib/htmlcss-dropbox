@@ -83,6 +83,9 @@ header li{
     display: inline-block;
     padding: 0px 4px;
 }
+.logo-header{
+    vertical-align: middle;
+}
 
 /*fine-header*/
 
@@ -96,6 +99,7 @@ header li{
 }
 .col-4{
     flex-basis: calc((100% / 12) * 4);
+    padding: 10px;
 }
 .col-6{
     flex-basis: calc((100% / 12) * 6);
@@ -109,6 +113,8 @@ header li{
 }
 .col-12{
     flex-basis: calc((100% / 12) * 12);
+    margin-top: 20px;
+    padding: 10px;
     
 }
 
@@ -408,3 +414,8 @@ footer li{
     padding-bottom: 20px;
 }
 
+
+.border{
+    border: 1px solid gray;
+    height: 100%;
+}
