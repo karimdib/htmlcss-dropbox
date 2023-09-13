@@ -179,7 +179,7 @@ header li{
 
 
 .head-task{
-    border: 1px solid black;
+    border: 1px solid gray;
     min-height: 20px;
     text-align: center;
     width: 100%;
@@ -187,7 +187,7 @@ header li{
 }
 
 .task{
-    min-height: 200px;    
+    aspect-ratio: 1;   
 }
 
 /*inizio-main-task*/
